@@ -1,4 +1,4 @@
-package com.cipher_gate;
+package com.ciphergate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

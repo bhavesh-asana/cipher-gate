@@ -1,4 +1,4 @@
-package com.cipher_gate;
+package com.ciphergate;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
