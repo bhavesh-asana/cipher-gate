@@ -1,0 +1,21 @@
+# Application running port
+server:
+  port: 8081
+
+spring:
+  application:
+    name: cipher-gate
+  security:
+    user:
+      name: user # Set a default username to authenticate
+      password:  # Set a default password to authenticate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ciphergate # Connection parameter of database
+    username: Bhavesh # Username of the database
+    password: # Password of the database
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update  # Use 'update', 'create', or 'validate' as needed
+    show-sql: true      # Enables SQL query logging
